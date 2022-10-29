@@ -1,0 +1,42 @@
+body{
+    font-family: sans-serif;
+    margin: auto;
+    padding: 0%;
+}
+
+header{
+    height: 85px;
+    display: flex;
+    align-items: center;
+    background-color: #D9D9FF;
+}
+
+#ImagemPrincipal {
+
+        position: relative;
+        left: 40px;
+        bottom: 3.5px;
+}
+
+input[type=text] {
+   color: #2d2d6c;
+   border: none;
+   position: relative;
+   left: 130px;
+   border-radius: 10px;
+   font-size: 20px;
+}
+
+li{
+    position: relative;
+    left: 100px;
+    font-size: 15px;
+    margin-left: 35px;
+    display: inline;
+}
+
+#carrinho{
+    
+    position: relative;
+    left: 220px;
+}
