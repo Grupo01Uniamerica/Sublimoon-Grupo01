@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    margin: auto;
+    margin: 0%;
     padding: 0%;
 }
 
@@ -75,7 +75,7 @@ li {
     bottom: 496.4px;
     left: 1000px;
 
-    width: 865px;
+    width: 903.5px;
     height: 462.5px;
     background: #D9D9FF;
  
@@ -124,4 +124,209 @@ span{
 position: relative;
 left: 90px;
 
+}
+
+
+#bloco2{
+
+    position: relative;
+    bottom: 320px;
+    left: 200px;
+    border-radius: 20px;
+    width: 397px;
+    height: 471px;
+    background: #D9D9FF;
+
+}
+
+#pngbloco2{
+
+position: relative;
+
+top: 50px;
+left: 60px;
+
+
+}
+
+#txtbloco2{
+
+position: relative;
+top: 5px;
+font-size: 23px;
+right: 30px;
+
+}
+#span2{
+
+position: relative;
+left: 115px;
+top: -10px;
+
+}
+
+
+#bloco3{
+
+    position: relative;
+    bottom: 1342px;
+    left: 762.5px;
+    border-radius: 20px;
+    width: 397px;
+    height: 471px;
+    background: #D9D9FF;
+
+
+}
+
+#pngbloco3{
+
+position: relative;
+
+top: 50px;
+left: 60px;
+
+
+}
+
+#txtbloco3{
+
+position: relative;
+top: 5px;
+font-size: 23px;
+right: -35px;
+
+}
+#span3{
+
+position: relative;
+left: 50px;
+top: -10px;
+
+}
+
+
+#bloco4{
+
+    position: relative;
+    bottom: 1262px;
+    left: 762.5px;
+    border-radius: 20px;
+    width: 397px;
+    height: 471px;
+    background: #D9D9FF;
+
+}
+
+#pngbloco4{
+
+position: relative;
+
+top: 50px;
+left: 60px;
+
+
+}
+
+#txtbloco4{
+
+position: relative;
+top: 5px;
+font-size: 23px;
+right: -45px;
+
+}
+#span4{
+
+position: relative;
+left: 45px;
+top: -10px;
+
+}
+
+
+#bloco5{
+
+    position: relative;
+    bottom: 2284px;
+    left: 1325px;
+    border-radius: 20px;
+    width: 397px;
+    height: 471px;
+    background: #D9D9FF;
+
+
+}
+
+#pngbloco5{
+
+position: relative;
+
+top: 50px;
+left: 60px;
+
+
+}
+
+#txtbloco5{
+
+position: relative;
+top: 5px;
+font-size: 23px;
+right: -10px;
+
+}
+#span5{
+
+position: relative;
+left: 75px;
+top: -10px;
+
+}
+
+
+#bloco6{
+
+    position: relative;
+    bottom: 2203.5px;
+    left: 1325px;
+    border-radius: 20px;
+    width: 397px;
+    height: 471px;
+    background: #D9D9FF;
+
+}
+
+#pngbloco6{
+
+position: relative;
+
+top: 50px;
+left: 60px;
+
+
+}
+
+#txtbloco6{
+
+position: relative;
+top: 5px;
+font-size: 23px;
+right: -45px;
+
+}
+#span6{
+
+position: relative;
+left: 45px;
+top: -10px;
+
+}
+
+footer{
+
+    position: relative;
+    background: #D9D9FF;
+    width: 1906px;
+    height: 140px;
 }
