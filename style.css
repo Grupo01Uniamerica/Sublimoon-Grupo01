@@ -15,15 +15,15 @@ header{
 
         position: relative;
         left: 40px;
-        bottom: 3.5px;
+        bottom: 1px;
 }
 
 input[type=text] {
    color: #2d2d6c;
-   border: none;
+   border-color: black;
    position: relative;
    left: 130px;
-   border-radius: 10px;
+   border-radius: 4px;
    font-size: 20px;
 }
 
@@ -38,5 +38,26 @@ li{
 #carrinho{
     
     position: relative;
-    left: 220px;
+    
+}
+
+#BemVindo{
+
+position: relative;
+left: 550px;
+
+}
+#fotoperfil{
+
+  position: relative;
+  left:550px;  
+
+
+}
+
+#fav{
+
+position: relative;
+left: 60px;
+
 }
