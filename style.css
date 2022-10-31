@@ -95,245 +95,244 @@ li {
 
 }
 
+.itensavenda{
+
+    display: flex;
+    width: 71.5vw;
+    height: 5vw;
+
+}
+
 #bloco1{
 
-    position: relative;
-    bottom: 400px;
-    left: 200px;
-    border-radius: 20px;
+    position:relative;
     width: 397px;
     height: 471px;
     background: #D9D9FF;
-
+    top: -479px;
+    right: -200px;
+    border-radius: 20px;
 }
 
-#pngbloco1{
+#img1{
 
-position: relative;
+    position: relative;
 
-top: 50px;
-left: 60px;
-
-
+    right: -57.5px;
+    bottom: -48px;
 }
 
-#txtbloco1{
+#txt1{
 
-position: relative;
-top: 16px;
-font-size: 23px;
-
-}
-span{
-color: #00008B;
-position: relative;
-left: 90px;
-
+    position: relative;
+    right: -1.55px;
+    bottom: -15px;
+    font-size: 23px;
 }
 
+#preco1{
+
+    color: #00008B;
+    position: relative;
+    left: 100px;
+}
 
 #bloco2{
 
-    position: relative;
-    bottom: 320px;
-    left: 200px;
-    border-radius: 20px;
+    position:relative;
+    background: #D9D9FF;
     width: 397px;
     height: 471px;
-    background: #D9D9FF;
+    right:-370px; 
+    top: -479px;
+    border-radius: 20px;
 
 }
 
-#pngbloco2{
+#img2{
 
-position: relative;
+    position: relative;
 
-top: 50px;
-left: 60px;
-
-
+    right: -57.5px;
+    bottom: -48px;
 }
 
-#txtbloco2{
+#txt2{
 
-position: relative;
-top: 5px;
-font-size: 23px;
-right: 30px;
-
-}
-#span2{
-color: #00008B;
-position: relative;
-left: 115px;
-top: -10px;
-
+    position: relative;
+    right: -39.55px;
+    bottom: -4px;
+    font-size: 23px;
 }
 
+#preco2{
+
+    color: #00008B;
+    position: relative;
+    top: -10px;
+    left: 55px;
+}
 
 #bloco3{
 
-    position: relative;
-    bottom: 1342px;
-    left: 762.5px;
-    border-radius: 20px;
+    position:relative;
     width: 397px;
     height: 471px;
     background: #D9D9FF;
-
-
-}
-
-#pngbloco3{
-
-position: relative;
-
-top: 50px;
-left: 60px;
-
+    border-radius: 20px;
+    top:-479px;
+    right:-533.5px;
 
 }
 
-#txtbloco3{
+#img3{
 
-position: relative;
-top: 5px;
-font-size: 23px;
-right: -35px;
+    position: relative;
 
-}
-#span3{
-color: #00008B;
-position: relative;
-left: 50px;
-top: -10px;
-
+    right: -57.5px;
+    bottom: -48px;
 }
 
+#txt3{
+
+    position: relative;
+    right: -12.55px;
+    bottom: -4px;
+    font-size: 23px;
+}
+
+#preco3{
+
+    color: #00008B;
+    position: relative;
+    top: -10px;
+    left: 80px;
+}
+
+
+.itensavenda2{
+
+    display: flex;
+    width: 71.5vw;
+    height: 45vw;
+
+}
 
 #bloco4{
 
-    position: relative;
-    bottom: 1262px;
-    left: 762.5px;
-    border-radius: 20px;
+    position:relative;
     width: 397px;
     height: 471px;
     background: #D9D9FF;
-
+    border-radius: 20px;
+    right: -200px;
+    top:-80px;
 }
 
-#pngbloco4{
+#img4{
 
-position: relative;
+    position: relative;
 
-top: 50px;
-left: 60px;
-
-
+    right: -57.5px;
+    bottom: -48px;
 }
 
-#txtbloco4{
+#txt4{
 
-position: relative;
-top: 5px;
-font-size: 23px;
-right: -45px;
-
+    position: relative;
+    right: 25.55px;
+    bottom: -4px;
+    font-size: 23px;
 }
-#span4{
-color: #00008B;
-position: relative;
-left: 45px;
-top: -10px;
 
+#preco4{
+
+    color: #00008B;
+    position: relative;
+    top: -10px;
+    left: 115px;
 }
 
 
 #bloco5{
 
-    position: relative;
-    bottom: 2284px;
-    left: 1325px;
-    border-radius: 20px;
+    position:relative;
     width: 397px;
     height: 471px;
     background: #D9D9FF;
-
-
-}
-
-#pngbloco5{
-
-position: relative;
-
-top: 50px;
-left: 60px;
-
+    border-radius: 20px;
+    right:-370px;
+    top:-80px;
 
 }
 
-#txtbloco5{
+#img5{
 
-position: relative;
-top: 5px;
-font-size: 23px;
-right: -10px;
+    position: relative;
 
-}
-#span5{
-color: #00008B;
-position: relative;
-left: 75px;
-top: -10px;
-
+    right: -57.5px;
+    bottom: -48px;
 }
 
+#txt5{
+
+    position: relative;
+    right: -45px;
+    bottom: -4px;
+    font-size: 23px;
+}
+
+#preco5{
+
+    color: #00008B;
+    position: relative;
+    top: -10px;
+    left: 57.55px;
+}
 
 #bloco6{
 
-    position: relative;
-    bottom: 2203.5px;
-    left: 1325px;
-    border-radius: 20px;
+    position:relative;
     width: 397px;
     height: 471px;
     background: #D9D9FF;
+    border-radius: 20px;
+    right:-533.5px;
+    top:-80px;
 
 }
 
-#pngbloco6{
+#img6{
 
-position: relative;
+    position: relative;
 
-top: 50px;
-left: 60px;
-
-
+    right: -57.5px;
+    bottom: -48px;
 }
 
-#txtbloco6{
+#txt6{
 
-position: relative;
-top: 5px;
-font-size: 23px;
-right: -45px;
-
+    position: relative;
+    right: -45px;
+    bottom: -4px;
+    font-size: 23px;
 }
-#span6{
 
-position: relative;
-left: 45px;
-top: -10px;
+#preco6{
 
+    color: #00008B;
+    position: relative;
+    top: -10px;
+    left: 57.55px;
 }
+
+
+
 
 .Ajuda{
     position: relative;
     display:grid;
     
-
-
 }
 
 *{
@@ -395,7 +394,7 @@ margin: 0 10px;
 
 .socials a{
     position: relative;
-    right: 100px;
+    right: 121px;
     text-decoration: none;
     color: white
 }
