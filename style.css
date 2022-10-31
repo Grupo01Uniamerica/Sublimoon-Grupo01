@@ -35,7 +35,7 @@ input[type=text] {
 
 li {
     position: relative;
-    left: 100px;
+    left: 120px;
     font-size: 15px;
     margin-left: 35px;
     display: inline;
@@ -408,7 +408,7 @@ margin: 0 10px;
 }
 
 .socials a:hover i{
-color: black
+color: blueviolet;
 
 }
 
@@ -435,4 +435,3 @@ text-transform: uppercase;
 font-weight: 200;
 color: white
 }
-
