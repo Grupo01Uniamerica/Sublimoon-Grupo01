@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,8 +12,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    <title>Sublimoon - Seja bem vindo</title>
+    <script type="text/javascript" src="index.js"></script>
+
+    <title>Sublimoon | Caneca - Escolha sua Arte</title>
 </head>
 
 <body>
@@ -53,114 +55,70 @@
         </div>
     </header>
 
-    <img id="bannerb" src="ImagensSublimoon/bannerb.png" >
+    <section class="limite">
 
-    <section class="delimitador">
-
-        <div id="ret1">
-            <div id="bloco1">       
-                <h2 id="txt1">Em destaque</h2>
-                <div id="fileira1">
-                    <div id="preco1">  
-                        <img id="canecapa" src="ImagensSublimoon/canecaPai.png"/>
-                        <p><strong>Caneca - Escolha Sua arte</strong></p>
-                        <p><strong>R$19,99</strong></p>
-                    </div>   
-
-                    <div id="preco2">
-                    <img id="canecaArte" src="ImagensSublimoon/canecaArte.png"/>
-                    <p><strong>Caneca - Essa caneca pertence </strong></p>
-                    <p><strong> ao melhor pai do mundo</strong></p>
-                    <p><strong>R$24,99</strong></p>
-                    </div>
-
-                    <div id="preco3">
-                        <img id="camisetaJesus" src="ImagensSublimoon/camisetaJesus.png"/>
-                        <p><strong>Camiseta Jesus</strong></p>
-                        <p><strong>R$39,99</strong></p>
-                    </div>
-
-                    <div id="preco4">
-                        <img id="camisaInfantil" src="ImagensSublimoon/camisaInfantil.png"/>
-                        <p><strong>Camisa infantil +</strong></p>
-                        <p><strong>Canetinha lavável</strong></p>
-                        <p><strong>R$36,99</strong></p>
-                    </div>  
-                </div>
-            </div> 
+        <div id="imagensad">
+            <img id="imagemcanecaarte" src="ImagensSublimoon/canecaArte.png" alt="Caneca escolha sua arte">
+            <img id="subimg" src="ImagensSublimoon/arte2.png" alt="Caneca escolha sua arte" onclick= "img01()" >
+            <img id="subimg2" src="ImagensSublimoon/arte3.png" alt="Caneca escolha sua arte" onclick= "img02()">
+            <img id="subimg3" src="ImagensSublimoon/arte4.png" alt="Caneca escolha sua arte" onclick= "img03()">
         </div>
-    </section>
+        <div id="enunciado">
+            <h2>
+                <p id="tituloarte"><strong>Caneca - Escolha sua Arte</strong></p>
+            </h2>
 
-    
-    <section class="test">
+            <strong>
+                <p id="valor">R$25,00</p>
+            </strong>
+            <p id="parcelas">2x de R$12,50 sem juros</p>
+            <img id="avaliacao" src="ImagensSublimoon/estrelas.png" alt="avaliacao">
+            <input id="seletorquantidade"placeholder="qt." type= number>
+            <button id="adicionarcarrinho" onclick="alerta()">Adicionar ao carrinho</button>
+        </div>
 
-        
-            <div id="ret2">
-                <div id="bloco2">       
-                    <h2 id="txt2">Mais vistos</h2>
-                    <div id="fileira2">
-                        <div id="preco5">  
-                            <img id="canecas" src="ImagensSublimoon/Canecas.png"/>
-                            <div id="canec">
-                                <p><strong>Canecas personalizadas - </strong></p>
-                                <p><strong>12 Uni.</strong></p>
-                                <p><strong>R$264,00</strong></p>
-                            </div>
-                        </div>   
-
-                        <div id="preco6">
-                        <img id="canecamae" src="ImagensSublimoon/camisetaMae.png"/>
-                        <p><strong>Camiseta mãe 24h</strong></p>
-                        <p><strong>R$39,99</strong></p>
-                        </div>
-
-                        <div id="preco7">
-                            <img id="camisetacasal" src="ImagensSublimoon/camisetaCasal.png"/>
-                            <div id="casa">
-                            <p><strong>Camiseta Casal - 2 Uni.</strong></p>
-                            <p><strong>R$79,99</strong></p>
-                            </div>
-                        </div>
-
-                        <div id="preco8">
-                            <img id="garrafinha" src="ImagensSublimoon/garrafinha.png"/>
-                            <div id="alinha">
-                                <p id="txt10"><strong>Garrafinha térmica -</strong></p>
-                                <p id="txt11"><strong>personalizada</strong></p>
-                                <p><strong>R$59,99</strong></p> 
-                            </div>
-                        </div>  
-                    </div>
-                </div> 
-            </div>
-        
+        <div id="descricao">
 
 
-        
+            <h3 id="titulodescricao">Descrição</h3>
+
+            <p id="textodescricao">Personalize sua caneca do jeito que quiser, adicione nas observações do carrinho. Também pode ser usada como item de decoração, porta canetas, porta treco,<br> porta objetos ou do jeito que sua imaginação permitir.</p>
+
+
+
+
+            
+        </div>
+
+
     </section>
 
 
-<footer>
-    <div class="footer-content">
 
-        <h3>SUBLIMOON</h3>
-        <p>Sinta-se no mundo da lua</p>
-        <ul class="socials">
-    
-         <li><a href="https://api.whatsapp.com/send/?phone=5545999568491&text&type=phone_number&app_absent=0" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
-         <li><a href="https://www.instagram.com/sm.monzon/?next=%2F" target="_blank"><i class="fa fa-instagram"></i></a></li>
-         
-    
-        </ul>
-    
+    <footer>
+        <div class="footer-content">
+
+            <h3>SUBLIMOON</h3>
+            <p>Sinta-se no mundo da lua</p>
+            <ul class="socials">
+
+                <li><a href="https://api.whatsapp.com/send/?phone=5545999568491&text&type=phone_number&app_absent=0"
+                        target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+                <li><a href="https://www.instagram.com/sm.monzon/?next=%2F" target="_blank"><i
+                            class="fa fa-instagram"></i></a></li>
+
+
+            </ul>
+
         </div>
-    
-       <div class="footer-bottom">
-    <p>copyright &copy;2022 <span>designed by Grupo 01 Uniamérica ADS/ES</span> </p>
-    
-    
-       </div>
-</footer>
-    
+
+        <div class="footer-bottom">
+            <p>copyright &copy;2022 <span>designed by Grupo 01 Uniamérica ADS/ES</span> </p>
+
+
+        </div>
+    </footer>
+
 </body>
+
 </html>
