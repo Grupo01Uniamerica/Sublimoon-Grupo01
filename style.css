@@ -26,44 +26,63 @@ header {
 }
 
 #sublimoonimagem{
-    width: 58%;
+    width: 44%;
 }
 
 input[type=text] {
     color: #2d2d6c;
     border-color: #5c6c98;
     position: relative;
-    left: 4%;
+    right: 1%;
     border-radius: 15px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
+#Categorias{
+
+    position:relative;
+    left: 0.5%;
+}
 li {
-    position: relative;
-    left: 9%;
+
     font-size: 1.04vw;
-    margin-left: 35px;
+    margin: 10px;
     display: inline;
 }
+.header2{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    left:4%;
 
+
+}
 #carrinho {
     position: relative;
-    right: 5%;
+    width: 3vw;
+    margin: 6px;
 }
 
 #fav {
-    position: relative;
-    right: 3%;
+ width: 2vw;
+ margin: 6px;
 }
 
-#BemVindo {
+
+#welcome{
     position: relative;
-    left: 18%;
+    left: 24%;
+
 }
+    
+
 
 #fotoperfil {
     position: relative;
     left: 18%;
+    width: 6vw;
+    margin:5px;
 }
 
 #bannerb{
@@ -78,14 +97,19 @@ height: 45vh;
     background-color:white;
 }
 
+p{
+    font-size: 1.05vw;
+    margin: 2px;
+}
+
 #ret1{
         display: flex;
         width: 65vw;
-        height: 40vh;
+        height: 46vh;
         justify-content: center;
         border: 2px solid #0672c7;
         position: relative;
-        left: 14%;
+        left: 16%;
         top: 25%;
         border-radius:10px;
         
@@ -97,7 +121,7 @@ height: 45vh;
     flex-direction: column;
     align-items: center;
     position: relative;
-    bottom:9%;
+    bottom:12%;
 
 }
 
@@ -180,14 +204,16 @@ height: 45vh;
 }
 
 
+
+
 #ret2{
     display: flex;
     width: 65vw;
-    height: 40vh;
+    height: 46vh;
     justify-content: center;
     border: 2px solid #0672c7;
     position: relative;
-    left: 14%;
+    left: 16%;
     top: 25%;
     border-radius:10px;
     
@@ -199,7 +225,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 position: relative;
-bottom:4%;
+bottom:12%;
 
 }
 
@@ -308,6 +334,16 @@ flex-direction: column;
 
 
 }
+
+#alinha{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
 
 
 
