@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=icon href="Imagens_Pagamento/IconeSublimoon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Pagamento</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+        <img id="Icone" src="Imagens_Pagamento/IconeSublimoon.png" alt="">
+    </a>
+    </header>
+
+    <h1>PAGAMENTO</h1>
+
+    <main>
+        <form action="">
+            <div id="NumCartao">
+                <label for="cartao"></label>
+                <input type="text" id="cartao" name="cartao" placeholder="Número do cartão"/>
+            </div>    
+            <div id="NomeTitular">
+                <label for="titular"></label>
+                <input type="text" id="titular" name="titular" placeholder="Nome do titular">
+            </div>
+            <div id="CodSeg">
+                <label for="seguranca"></label>
+                <input type="text" id="seguranca" name="seguranca" placeholder="Código de Segurança">
+            </div>
+            <div id="DataQual">
+                <label for="data"></label>
+                <input type="text" id="data" name="data" placeholder="DD/MM/AA">
+            </div>
+            <div id="opcoes">
+                <label for="selecao"></label>
+                <select name="parcela" id="selecao">
+                    <option value="1x">1x (Uma vez)</option>
+                    <option value="2x">2x (Duas vezes)</option>
+                    <option value="3x">3x (Três vezes)</option>  
+                    <option value="4x">4x (Quatro vezes)</option>    
+                    <option value="5x">5x (Cinco vezes)</option>    
+                </select>
+            </div>
+        </form>
+    </main>
+    <div id="botao"><button onclick="">FINALIZAR COMPRA</button></div>
+    <section class="metodos">
+        <div id="pix">
+            <img id="imagem_pix"src="Imagens_Pagamento/pixx.png">
+         </div>
+         <div id="boleto">
+            <img id="imagem_boleto" src="Imagens_Pagamento/boleto.jpg" alt="Pagar boleto">
+         </div>
+    </section>
+    <footer></footer>
+</body>
+</html>
