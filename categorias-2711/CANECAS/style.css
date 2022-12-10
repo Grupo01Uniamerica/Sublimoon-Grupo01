@@ -49,6 +49,12 @@ li {
     margin: 10px;
     display: inline;
 }
+a{
+
+    text-decoration: none;
+    color: black;
+
+}
 .header2{
     display: flex;
     position: relative;
@@ -371,8 +377,7 @@ flex-direction: column;
     
 }
 .produto{
-    margin-left: 1%;
-    margin-top: 1%;
+    margin: 10px;
     border: 2px solid black;
     border-radius: 14px;
     display:flex;

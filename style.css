@@ -25,6 +25,12 @@ header {
     bottom: 1%;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
 #sublimoonimagem{
     width: 44%;
 }
@@ -32,10 +38,6 @@ header {
 input[type=text] {
     color: #2d2d6c;
     border-color: #5c6c98;
-   
-    border-top-color:#7c95db ;
-    border-left-color:#7c95db ;
-  
     position: relative;
     right: 1%;
     border-radius: 15px;
@@ -176,6 +178,18 @@ p{
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+#txter{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#txter2{
+    display: flex;
+    justify-content: center;
 }
 
 #camisetaJesus{

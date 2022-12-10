@@ -142,13 +142,16 @@ function itens (){
             console.log(val.nome);
             produto.innerHTML+=`
             <div class= "produto">
+            <a href="../../itens/camisetajesus/index.html">
                 <img class="imagem" src="`+val.url_img+`"/>
+                </a>
                 <p class="item.titulo"><strong>`+val.nome+`</strong></p>
                 <article class="preco-linha">
                     <p class="item-title"><strong>Preço:</strong></p>
                     <P class="item-info">R$ `+val.preco+`</p>
                 </article>
-            </div>`;
+            </div>
+            `;
     
         })
 } 

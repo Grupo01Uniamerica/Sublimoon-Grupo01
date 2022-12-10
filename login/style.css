@@ -1,0 +1,96 @@
+body{
+    background-color: #2d2d6c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main{
+    background-color: white;
+    border-radius: 2%;
+    width: 30vw;
+    padding: 3%;
+    margin: auto;
+    font-family: sans-serif;
+}
+#sublimoonimagem{
+    position: relative;
+    width: 8vw;
+    left: 35%;
+}
+h1{
+    color: #2d2d6c;
+    text-align: center;
+    font-size: 3.5vw;
+}
+
+form{
+   line-height: 2.3vw;
+}
+label{
+    color: #2d2d6c;
+    font-size: 1.9vw;
+    margin: 0%;
+    white-space: nowrap;
+    font-weight: 700;
+}
+
+
+#nome01{
+    width: 2.7vw;
+    
+}
+
+#nome{
+    border-color: #2d2db4;
+    border-radius: 8px;
+    padding-right: 14vw;
+    height: 1.7vw;
+    
+}
+#senha{
+    border-color: #2d2db4;
+    border-radius: 8px;
+    padding-right: 14vw;
+    height: 1.7vw;
+}
+
+#senhaconf{
+    border-color: #2d2db4;
+    border-radius: 8px;
+    padding-right: 14vw;
+    height: 1.7vw;
+}
+
+#email{
+    border-color: #2d2db4;
+    border-radius: 8px;
+    padding-right: 14vw;
+    height: 1.7vw;
+}
+
+
+#senha01{
+    width: 2.7vw;
+}
+
+#confsenha01{
+    width: 2.7vw;
+}
+
+
+#email01{
+    width: 2.7vw;
+}
+
+
+button{
+    color: white;
+    font-size: 1.5vw;
+    background-color: #2d2db4;
+    border-color:#2d2db4 ;
+    padding: 2% 10%;
+    border-radius: 7px;
+    margin-left: 8.2vw;
+    margin-top: 5%;
+    cursor: pointer;
+}

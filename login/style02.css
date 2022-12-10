@@ -1,0 +1,95 @@
+body{
+    background-color: #2d2d6c;
+}
+main{
+    background-color: white;
+    border-radius: 2%;
+    width: 50vw;
+    padding: 3%;
+    height: 35vw;
+    margin: auto;
+    font-family: sans-serif;
+}
+#sublimoonimagem{
+    justify-content: flex-start;
+    width: 20vw;
+    left: 38%;
+}
+h1{
+    color: #2d2d6c;
+   display: flex;
+   justify-content: flex-start;
+}
+
+form{
+   line-height: 3vw;
+}
+label{
+    color: #2d2d6c;
+    font-size: 2.2vw;
+    margin: 0%;
+    white-space: nowrap;
+    font-weight: 700;
+}
+
+
+#nome01{
+    width: 2.7vw;
+    position: relative;
+    left: 29vw;
+    bottom: 18vw;
+    
+}
+
+#nome{
+    border-color: #2d2db4;
+    border-radius: 8px;
+    padding-right: 9vw;
+    height: 2vw;
+
+    
+}
+#senha{
+    border-color: #2d2db4;
+    border-radius: 8px;
+    padding-right: 9vw;
+    height: 2vw;
+}
+
+#senha01{
+    width: 2.7vw;
+    position: relative;
+    left: 29vw;
+    bottom: 16vw;
+    
+}
+
+button{
+    color: white;
+    font-size: 1.5vw;
+    background-color: #2d2db4;
+    border-color:#2d2db4 ;
+    padding: 2% 12%;
+    border-radius: 7px;
+    margin-left: 31vw;  
+    cursor: pointer;
+    position: relative;
+    bottom: 10vw;
+}
+
+#senhaforget{
+    text-decoration: none;
+    color:#2d2db4;
+    font-weight: 700;
+    position: relative;
+    left: 38.7vw;
+    bottom: 14.3vw;
+}
+#cadastro{
+    text-decoration: none;
+    color:#2d2db4;
+    font-weight: 700;
+    position: relative;
+    left: 31vw;
+    bottom: 4vw;
+}
