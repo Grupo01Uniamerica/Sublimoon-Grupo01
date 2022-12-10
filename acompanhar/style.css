@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500;600&display=swap');
+
+body {
+    font-family: sans-serif;
+    margin: auto;
+}
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+#ImagemPrincipal {
+    position: relative;
+    left: 3%;
+    bottom: 1%;
+}
+
+#sublimoonimagem {
+    width: 44%;
+}
+
+input[type=text] {
+    color: #2d2d6c;
+    border-color: #5c6c98;
+
+    border-top-color: #7c95db;
+    border-left-color: #7c95db;
+
+    position: relative;
+    right: 1%;
+    border-radius: 15px;
+    font-size: 1.2rem;
+}
+
+a{
+
+color: black;
+text-decoration: none;
+
+
+}
+
+#Categorias {
+
+    position: relative;
+    left: 0.5%;
+}
+
+li {
+
+    font-size: 1.04vw;
+    margin: 10px;
+    display: inline;
+}
+
+.header2 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    left: 4%;
+
+
+}
+
+#carrinho {
+    position: relative;
+    width: 3vw;
+    margin: 6px;
+}
+
+#fav {
+    width: 2vw;
+    margin: 6px;
+}
+
+
+#welcome {
+    position: relative;
+    left: 24%;
+
+}
+
+
+
+#fotoperfil {
+    position: relative;
+    left: 18%;
+    width: 6vw;
+    margin: 5px;
+}
+
+
+.delimitador {
+
+    height: 90vh;
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+
+.ret1 {
+
+    display: flex;
+
+    position: relative;
+    left: 2%;
+    height: 90%;
+    width: 30.5%;
+    border: 2px solid black;
+   
+
+}
+
+.ret2 {
+
+    display: flex;
+
+    position: relative;
+    left: 1.92%;
+    height: 90%;
+    width: 34%;
+    border: 2px solid black;
+
+}
+
+.ret3 {
+
+    display: flex;
+
+    position: relative;
+    left: 1.80%;
+    height: 90%;
+    width: 30.5%;
+    border: 2px solid black;
+    flex-direction: column;
+    
+
+}
+#txtpreco{
+
+position: relative;
+top:10%;
+
+
+
+}
+
+#randola{
+font-size: 1.2rem;
+
+
+}
+
+#total{
+
+    font-size: 2rem;
+
+}
+
+
+.meuspedidostxt{
+
+position: relative;
+left: 34%;
+top: 4%;
+font-size: larger;
+
+
+}
+
+.estados{
+
+position: relative;
+right: 5%;
+top: 17%;
+font-size: 1.2;
+
+
+
+}
+
+
+.barrinha {
+
+    position: relative;
+    right: 8%;
+    top: 12%;
+    width: 20px;
+    height: 75%;
+    border-radius: 10px;
+    margin: 5%;
+    border: medium solid black;
+    background: linear-gradient(to bottom, #7c95db 0%, #7c95db 38%, white 10%);
+
+
+}
+
+
+
+
+
+#imgs {
+
+    width: 10.4vw;
+    height: 16vh;
+
+}
+
+
+#bloc1 {
+
+    display: flex;
+    padding: 2rem;
+    padding-top: 4rem;
+
+}
+
+#txt1 {
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+
+#superBloco {
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#bloc2 {
+
+    display: flex;
+    padding: 2rem;
+    padding-top: 1rem;
+
+}
+
+#txt2 {
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+
+#desce {
+
+    position: relative;
+    top: 50%;
+
+}
+
+
+
+
+
+
+
+
+footer {
+
+    background: #0b67ad;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: white
+}
+
+.footer-content {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+
+}
+
+.footer-content p {
+
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+
+}
+
+.socials {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+
+}
+
+.socials li {
+
+    margin: 0 10px;
+
+}
+
+.socials a {
+    position: relative;
+    right: 15px;
+    text-decoration: none;
+    color: white
+}
+
+.socials a i {
+
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+
+.socials a:hover i {
+    color: blue;
+
+}
+
+.footer-bottom {
+
+    background: #0b67ad;
+    width: 100vw;
+    text-align: center;
+
+}
+
+footer-bottom p {
+
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+
+}
+
+.footer-bottom span {
+
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 200;
+    color: white
+}

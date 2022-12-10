@@ -32,6 +32,10 @@ header {
 input[type=text] {
     color: #2d2d6c;
     border-color: #5c6c98;
+   
+    border-top-color:#7c95db ;
+    border-left-color:#7c95db ;
+  
     position: relative;
     right: 1%;
     border-radius: 15px;
