@@ -107,3 +107,57 @@ a{
     text-decoration: none;
 
 }
+
+@media screen and (max-width: 768px) {
+   main{
+    border-radius: 20px;
+    width: 35vw;
+   }
+   #selecao{
+    padding: 1%;
+   }
+   #imagem_pix{
+    bottom: 29.5vh;
+   }
+   #imagem_boleto{
+    bottom: 18vh;
+   }
+}
+
+@media screen and (max-width: 480px) {
+
+    main{
+        width: 48vw;
+    }
+    form{
+        line-height: 6vh;
+    }
+    #cartao{
+        padding-right: 10vw;
+        height: 5vw;
+    }
+    #titular{
+        padding-right: 10vw;
+        height: 5vw;
+    }
+    #seguranca{
+        padding-right: 10vw;
+        height: 5vw;
+    }
+    #data{
+        padding-right: 10vw;
+        height: 5vw;
+    }
+    #imagem_boleto{
+        width: 15vw;
+        left: 4%;
+    }
+    #imagem_pix{
+        width: 15vw;
+        left: 3.5%;
+    }
+    h1{
+        font-weight: 600;
+        font-size: 4vw;
+    }
+}

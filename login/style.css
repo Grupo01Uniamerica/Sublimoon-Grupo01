@@ -94,3 +94,37 @@ button{
     margin-top: 5%;
     cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+    main{
+        padding: 8%;
+        padding-right: 15%;
+    }
+    #email{
+        padding-right: 0.1vw;
+    }
+    #nome{
+        padding-right: 0.1vw;
+    }
+    #senha{
+        padding-right: 0.1vw;
+    }
+    #senhaconf{
+        padding-right: 0.1vw;
+    }
+}
+@media screen and (max-width: 768px) {
+    #email{
+        padding-right: 5vw;
+    }
+    #nome{
+        padding-right: 5vw;
+    }
+    #senha{
+        padding-right: 5vw;
+    }
+    #senhaconf{
+        padding-right: 5vw;
+    }
+    
+}
