@@ -18,13 +18,15 @@ header {
     background-color: white;
 }
 
-#ImagemPrincipal {
+#ImagemPrincipal{
     position: relative;
     left: 3%;
     bottom: 1%;
+
+    width: 14rem;
 }
 
-#sublimoonimagem {
+#sublimoonimagem{
     width: 44%;
 }
 

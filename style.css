@@ -23,6 +23,12 @@ header {
     position: relative;
     left: 3%;
     bottom: 1%;
+
+    width: 14rem;
+}
+
+#sublimoonimagem{
+    width: 44%;
 }
 
 a{
@@ -31,9 +37,7 @@ a{
 
 }
 
-#sublimoonimagem{
-    width: 44%;
-}
+
 
 input[type=text] {
     color: #2d2d6c;
